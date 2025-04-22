@@ -3,15 +3,15 @@
 
 int main(){
 
-int sum = 0;
-int integerArray[10]  = {1,2,3,4,5,6,7,8,9,10};
-int *ptr = integerArray;
+  int sum = 0;
+  int integerArray[10]  = {1,2,3,4,5,6,7,8,9,10};
+  int *ptr = integerArray;
 
-for( int i = 0; i<10; i++){
-  sum = sum + *(ptr + i);
-}
-printf("Sum of array of integers is %i", sum);
+  for( int i = 0; i<10; i++){
+    sum = sum + *(ptr + i);
+  }
+  printf("Sum of array of integers is %i", sum);
 
-return 0;
+  return 0;
 
 }
